@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="Resume.pdf" target="_blank"><span style="color:black;">RESUME</span></a>
+            <!-- <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"><a href="Prasad_RVSV_Resume.pdf" target="_blank">Resume</a></span> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto" id="nav1">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me<br>Sai Kiran</h2>
+                <p class="hero_desc">I'm a Masters Student at<span style="color:orange;"> Oregon State University</span> </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center"><span style="color:#005E5C;"> About Me</span></h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/DFFF5548-35F4-489A-8689-63ACA4351A67.JPG" class= "imageAboutPage"   alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> An aspirant engineer who is capable and has knowledge on using technical skillset disciplined and dedicated candidate who would focus and completes work on time always thrive to learn new things from others. Experienced working with teams to produce impactful, leading-edge websites that engage customers and deliver business results. Well-versed in design standards and user preferences</p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul><strong><span style="color:#2D6891;">Skills:</span></strong>
+                                <li>Languages: Python, JavaScript</li>
+                                <li>Web Technologies: HTML5, CSS3</li>
+                                <li>Database: SQL</li>
+                                <li>Atlassian Tools :Jira, Confluence</li>
+                                <li>Version Control System: Git</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <ul><strong><span style="color:#2D6891;">Interests:</span></strong>
+                                <li>Fullstack Web Development</li>
+                                <li>Cloud Computing</li>
+                                <li>Data Science</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <!-- <section id="services">
+        <div class="container">
+            <h1 class="text-center"><span style="color:#005E5C;"> Services</span></h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3"><span style="color:#2D6891;"> QA</span></h4>
+                            <p class="card-text mt-3">Monitor, Inspect, and propose measures to correct or improve a company's final products and processes in order to meet established and desired quality standards.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3"><span style="color:#2D6891;">Frontend Web Development</span></h4>
+                            <p class="card-text mt-3">Code and Develop user-side functional and appealing web and mobile-based applications based on usability. Provide website maintenance and enhancements.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3"><span style="color:#2D6891;">Online Tutoring</span></h4>
+                            <p class="card-text mt-3">Assist the students' learning progress through visual communication, sending them online resources. Identify the students' strengths and weaknesses and strategize or adjust learning techniques to address those difficulties.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div> -->
+
+            <!-- <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">SEO</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">DevOps</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">QA</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section-->
+    <section id="projects">
+        <div class="container mt-3">
+            <h1 class="text-center"><span style="color:#005E5C;;"> Projects</span></h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/tshirt.jpg" alt="Card image" style="height:237px;width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">E-commerce web application</h4>
+                            <p class="card-text">Built an ecommerce website using MERN Stack which is capable of taking personalized inputs from users based on their interests</p>
+                            <div class="text-center">
+                                <a href="https://github.com/prasadrvsv/digital_clock" target=_blank class="btn btn-success">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/india-travel-poster-vector-18261918.jpg" alt="Card image" style="height:238px;width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Travel and Tourism Web Page</h4>
+                            <p class="card-text">Developed a webpage using HTML, CSS, Javascript to display quality content related to tourism locations in India.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/prasadrvsv/key_generation" target=_blank class="btn btn-success">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/ipl.png" alt="Card image" style="height:210px;width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">IPL Analysis using Excel</h4>
+                            <p class="card-text">Gathering all data related to IPL from starting season to the last season and representing the data of all teams and players by using pivot tables and pivot charts</p>
+                            <div class="text-center">
+                                <a href="https://github.com/prasadrvsv/atm-security" target=_blank class="btn btn-success">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Messaging Service</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Twitter Clone</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </section>
+    <!-- Contact me -->
+    <section id="contact">
+        <div class="container-fluid">
+           <h1 class="text-center"><span style="color:#005E5C;;"> Contact me</span></h1>
+           <ul class="text-center">
+               <!-- <li style="list-style-type: none;">
+                <h3><i class="fab fa-facebook"></i><a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: black;" > Facebook</a></h3> 
+               </li> -->
+               <li style="list-style-type: none;">
+                    <h4> <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/sai-kiran-uppu-996681224/" target="_blank" style="text-decoration: none; color: black;" > LinkedIn</a></h4>
+               </li>
+               <li>
+                    <h4><i style="font-size:24px;color: black;" class="fa class="fa-email"">&#xf0e0;</i> email - uppu.saikiran07@gmail.com </h4>
+               </li>
+               <li style="list-style-type: none;">
+                    <h4><i class="fab fa-twitch"></i> Phone / Message - +1 541-908-9502</h4>
+               </li>
+               
+           </ul>
+        </div>
+
+    </section>
+
+    <!-- footer section-->
+    <!-- <footer id="footer">
+        <div class="container-fluid"> -->
+            <!-- social media icons -->
+            <!-- <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="bi bi-telephone"></i></a>
+                
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

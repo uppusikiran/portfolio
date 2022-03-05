@@ -1,0 +1,97 @@
+/* display background color black on navbar scroll */
+/* .navbarScroll.navbarDark {
+    background-color: transparent;
+    position: fixed;
+} */
+#navbarSupportedContent #nav1 .nav-item .nav-link{
+    color: black;
+}
+
+#heading{
+    color: orange;
+}
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/bg_image11.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color: black;
+}
+.hero_desc {
+    font-size: 2rem;
+    color: black;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.my_intro {
+    font: optional;
+}
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-telephone:hover, .fa-email:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+.embedmap-canvas{
+    display: flex;
+    justify-content: center;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+/* I’m interested in programming because I have a passion for tech, creativity, and finding solutions. I love the mental challenge that programming presents and the possibility of being able to conceive a new idea and bring it to fruition. My first exposure to programming was 8-9 years ago when I was taught the "Hello World!!" program in C. 
+                            My interest overtime futher pushed me to  try teaching myself python to see if I could learn more difficult languages, and I was able to learn the basics. I have taken Computer Science as my major in my Under graduate. The projects I have done as a part of my academics proved to me that I would greatly benefit from learning programing techniques in a collaborative classroom setting.
+                            I took a pause here and wanted to gain some industry experience to know what exactly is the industry looking for. I further realised the beauty of coding and programming and with the excitment of learning more I'm now enrolled in Master's degree majoring Computer Science at Oregon State University. */
